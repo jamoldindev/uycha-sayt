@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 123px;
+    height: 39px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    color: #192252;
+}
+
+.base-btn {
+    background-color: #192252;
+    color: #fff;
+    padding: 14px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    border-radius: 4px;
+}
+
+.hero {
+    padding: 80px 0px 170px 0px;
+}
+
+.hero-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left {
+    width: 587px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.hero-left h1 {
+    font-family: monospace;
+    font-size: 48px;
+    font-weight: 600;
+    color: #192252;
+}
+
+.hero-left p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #848FAC;
+}
+
+.hero-right {
+    display: flex;
+    gap: 25px;
+}
+
+.hero-right img {
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0, 25);
+    border-radius: 4px;
+    width: 180px;
+    height: 580px;
+}
+
+.hero-right img:nth-child(2) {
+    transform: translateY(65px);
+}
+
+.norway {
+    padding: 80px 0;
+}
+
+.norway-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.norway-left {
+    width: 384px;
+    height: 576px;
+}
+
+.norway-right {
+    width: 690px;
+}
+
+.norway-left img {
+    width: 384px;
+    height: 576px;
+    border-radius: 4px;
+}
+
+.norway-right h1 {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 24px;
+    color: #192252;
+
+}
+
+.norway-right p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #192252;
+}
+
+.norway-right button {
+    margin-top: 20px;
+}
+
+.about {
+    padding: 80px 0;
+}
+
+.about-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-left {
+    width: 584px;
+}
+
+.about-left h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #192252;
+    margin-bottom: 24px;
+}
+
+.about-left p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.about-right {
+    width: 384px;
+    height: 384px;
+}
+
+.about-right img {
+    width: inherit;
+    height: inherit;
+    border-radius: 4px;
+}
+
+.about-row2 {
+    margin-top: 70px;
+    flex-direction: row-reverse;
+}
+
+.container2 {
+    text-align: center;
+}
+
+.container2 h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+}
+
+.container2 p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #848FAC;
+    margin-bottom: 20px;
+}
+
+.container button {
+    margin-bottom: 50px;
+}
+
+.box3 {
+    text-decoration: none;
+}
+
+.shadow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rooms-col h1 {
+    margin: 30px;
+}
+
+.colman {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+
+.getroom {
+    padding: 80px 0;
+}
+
+.getroom-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.getroom-left {
+    width: 407px;
+}
+
+.getroom-right {
+    width: 588px;
+}
+
+.getroom-left h6 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.getroom-left h1 {
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.getroom-left p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 20px;
+}
+
+.getroom-left a {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-decoration: none;
+    margin-left: 8px;
+
+}
+
+.customers{
+    padding: 80px 0;
+}
+.customers-title{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 600;
+line-height: 54px;
+letter-spacing: -0.01em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.bng{
+    margin-top: 20px;
+    margin-left: 45%;
+    margin-bottom: 20px;
+}
+.bnb{
+    margin-top: 20px;
+    margin-left: 47%;
+    margin-bottom: 30px;
+}
+.container p{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.container h3{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.footer{
+    background-color: #192252;
+    padding: 120px 0;
+}
+.footer-row{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.footer-left{
+    width: 190px;
+    color: #fff;
+}
+.icons{
+    display: flex;
+    gap: 24px;
+}
+.icon:hover path{
+    fill: red;
+    cursor: pointer;
+}
+.footer-right ui a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36;
+    text-align: left;
+    color: #ffff;
+}
+ul li:nth-child(1){
+    color: #fff;
+    font-weight: 700;
+}
